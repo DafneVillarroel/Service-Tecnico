@@ -1,0 +1,79 @@
+.text-contacto{
+  color: hsl(0, 0%, 0%) !important;
+}
+#header img{
+ width: 80px;
+ height: auto;
+}
+#main .carousel-inner img{
+max-height: 70vh;
+object-fit: cover;
+filter: grayscale(70%);
+}
+#carousel{
+position: relative;
+}
+.navbar-toggler{
+  border: 1px solid black;
+}
+.navbar-toggler{
+  height:45px;
+ 
+}
+.navbar-toggler-icon {
+  height: 2px;
+  margin-block-start: -10px;
+  background-color:black;
+}
+#carousel .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right:0;
+  background-color: rgba(0,0,0,0.5);
+  color:white;
+  z-index: 1;
+}
+#carousel .overlay .container,
+#carousel .overlay .row{
+  height: auto;
+}
+#footer{
+  background:hsl(51, 95%, 62%);
+}
+
+.servicios{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer a{
+  color:white;
+}
+.titleHome{
+  margin-block-start: 70px;
+}
+.imgSobremi{
+      width: 410px;
+      height: 300px;
+      
+  }
+@media screen and (max-width:770px){
+  .imgSobremi{
+      width: 220px;
+      height: auto;
+      margin:auto;
+  }
+  .titleHome{
+      margin-block-start: 0px;
+  }
+  .tecnico{
+    margin-inline-start: 5px;
+  }
+}
+@media screen and (min-width:2300px){
+.tecnico{
+  margin-inline-start: 530px;
+}
+}
